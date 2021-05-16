@@ -51,7 +51,7 @@ func main() {
 				break //exit the loop when the user guesses the number
 			}
 			if i == guesses-1 {
-				fmt.Println("Sorry, you didn't guess the number.  It was", Target, ".")
+				fmt.Printf("Sorry, you didn't guess the number.  It was %v.\n", Target)
 			}
 		}
 		fmt.Print("Would you like to play again? (y/n): ")
